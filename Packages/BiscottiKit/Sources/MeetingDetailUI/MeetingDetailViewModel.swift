@@ -715,7 +715,7 @@ public extension MeetingDetailViewModel {
         // Pipeline is active when transcription is downloading/transcribing
         // OR an enhancement is in progress (including .preparing).
         let transcriptionActive = switch jobStatus {
-        case .downloadingModel, .transcribing: true
+        case .downloadingModel, .transcribing, .queued: true
         default: false
         }
         let enhancementActive = switch enhStatus {

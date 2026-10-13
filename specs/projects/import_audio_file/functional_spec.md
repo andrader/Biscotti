@@ -34,7 +34,7 @@ Failures are collected per batch and shown in one alert: "Couldn't import <name>
 
 - A queued meeting shows "Queued"; a running one shows elapsed time and a **Cancel** button.
 - Cancelling gives a terminal `cancelled` state (no transcript). The user can re-run transcription; imported meetings can also be deleted from that state, since the audio is just a copy of a file the user still has.
-- Transcription works for meetings that have only one audio track (mic only or system only).
+- Transcription works for meetings that have only one audio track (mic only).
 
 ## Imported-meeting marker
 
